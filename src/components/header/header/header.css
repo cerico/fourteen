@@ -1,0 +1,89 @@
+.HeaderBKGRD {
+  width: 1500px;
+  height: 68px;
+  position:absolute;
+  top:0;
+  z-index:500;
+  padding-top:10px;
+  background-color: white;
+}
+
+.Ellipse2977copy {
+  width: 42.3px;
+  height: 10.8px;
+  background-color: #ffffff;
+}
+
+.L {
+  width: 46.9px;
+  height: 10.8px;
+  color:#363c43;
+  margin-left:-8px;
+  font-weight:900
+}
+
+.OGO {
+  width: 46.9px;
+  height: 10.8px;
+  color:white;
+  padding-left:4px
+}
+
+.Ellipse2977 {
+  height: 47px;
+  background-color: #363c43;
+  border-radius: 100%;
+  width: 47px;
+  margin-left: 2%;
+  padding-top: 15px;
+  font-size: 13.8px;
+  float:left
+  
+}
+
+.Home {
+  width: 32px;
+  height: 9px;
+  font-family: DroidSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #282c39;
+  color: var(--dark);
+  margin-top:12%;
+}
+
+.links{
+  float:right;
+  margin-right:17%;
+  display:flex;
+}
+
+.Test {
+  width: 23px;
+  height: 9px;
+  font-family: DroidSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #282c39;
+  margin-top:12%;
+  margin-left:9%
+}
+
+.Ellipse1 {
+  width:52px;
+  height: 38px;
+  background-color: #282c39;
+  border-radius: 100%;
+  margin-left:9%;
+  background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAACQAAAAJDVhNzEzZTZiLWM0MGMtNDYzZS04MDM3LWJhZWJiZTY2OGZkMg.jpg')
+}

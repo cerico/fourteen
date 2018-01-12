@@ -1,0 +1,9 @@
+.top{
+  width: 317px;
+  height: 86.1px;
+  border-radius: 10px;
+  border: 1px solid #d7d7d9;
+  margin: 1px auto;
+  background:white;
+  display:flex
+}

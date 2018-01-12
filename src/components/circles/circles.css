@@ -1,0 +1,55 @@
+.circle {
+  width: 167.9px;
+  height: 167.8px;
+  border: 3px solid grey;
+  position: absolute;
+  top: 300px;
+  left: 102px;
+  padding:52px;
+  background:white;
+  border-radius:100%;
+  text-align: center;
+}
+
+.P1 {
+  width: 33px;
+  height: 26px;
+  font-family: DroidSans;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #282c39;
+}
+
+  .Draft {
+  width: 35px;
+  height: 9px;
+  opacity: 0.5;
+  font-family: DroidSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(61, 65, 77, 0.5);
+}
+
+.box {
+  width: 20px;
+  border: 1px solid #d7d7d9;
+  border-radius: 10px;
+  padding: 41px;
+  position: absolute;
+  left: 123px;
+  top: 342px;
+  left: 337px;
+  height: 20px;
+  background: white;
+}
+

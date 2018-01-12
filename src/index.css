@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box
+}
+*:after,
+*.before {
+  box-sizing: border-box
+}
+
+body, html, article {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background:#f6f6f6;
+  outline: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: Roboto;
+  font-size: 15px;
+  text-transform: none;
+  color: #222;
+  line-height: 1.6em;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+a, a:visited {
+  text-decoration: none;
+  color:#549fb8
+}
+
+img {
+  height: 240px;
+}
+
+.Header-BKGRD {
+  width: 1500px;
+  height: 68px;
+  background-color: red;
+  /* background-color: var(--white); */
+}
+
+/* body select.select_box */ 
+body select { 
+  display: block;
+  padding: 10px 70px 10px 13px !important; 
+  max-width: 100%; 
+  height: auto !important; 
+  border: 1px solid #e3e3e3; 
+  border-radius: 3px; 
+  background: url("https://image.ibb.co/iMeAJv/selectbox_arrow.png") right center no-repeat; 
+  background-color: #fff; 
+  color: #444444; 
+  font-size: 12px; 
+  line-height: 16px !important; 
+  appearance: none; 
+  /* this is must */ -webkit-appearance: none; 
+  -moz-appearance: none; 
+} 
+/* body select.select_box option */ 
+body select option { 
+  padding: 0 4px; 
+} 
+/* for IE and Edge */ 
+select::-ms-expand { 
+  display: none; 
+} 
+select:disabled::-ms-expand { 
+  background: #f60; 
+}
+
+
+/* required part */
+.stylish span {position:relative;}
+.stylish select {position:absolute;left:0px;display:none}
+
+/* beauty */
+.stylish input {
+    width:250px;
+    padding:5px;
+}
+.stylish select {
+    min-width:260px;
+    margin-top:1px;
+    border-top:none;
+}
+.stylish select option {
+    padding:12px 0px 10px 24px;
+    box-shadow:32px -25px 50px -40px black inset;
+}
+.stylish select optgroup {
+    padding:15px 20px 7px 0px;
+    text-align:center;
+    font:15px candara,sans-serif;
+    text-shadow:1px 3px 5px black;
+    font-weight:bold;
+    color:white;
+    background:radial-gradient(ellipse at 50% -40px, white, #003853);
+}
