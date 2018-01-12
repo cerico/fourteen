@@ -45,7 +45,7 @@ const Control = ({
       return (
         <div className={style.input}>
           <button
-            style={{ "backgroundColor": buttonColour }}
+            style={{ backgroundColor: buttonColour }}
             className={style.button}
             onClick={() => press(target)}
           >
@@ -102,10 +102,10 @@ const Control = ({
         <button
           className={style.Enter}
           style={{
-            "borderRadius": "100%",
-            "paddingRight": "7px",
-            "paddingTop": "2px",
-            "borderLeft": "none"
+            borderRadius: "100%",
+            paddingRight: "7px",
+            paddingTop: "2px",
+            borderLeft: "none"
           }}
         >
           <span className={style.cross}>+</span>

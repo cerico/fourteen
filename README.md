@@ -44,6 +44,7 @@ Pushes to DigitalOcean droplet, runs on http://fourteen.malham.io
 * [ ]  No way to go back to pod after moving to record view
 * [ ]  No cancel or unpublish buttons
 * [ ]  Attachment button present, but doesnt do anything
+* [ ]  Dragging message only disappears if you drop on target
 
 
 

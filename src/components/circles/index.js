@@ -7,7 +7,6 @@ var FaUnlock = require("react-icons/lib/fa/unlock");
 var FaLock = require("react-icons/lib/fa/lock");
 
 const Circles = ({ ui, pod, draggedRecord, editing }) => {
-
   const draggedaRecord = e => {
     draggedRecord(e);
   };
@@ -33,7 +32,7 @@ const Circles = ({ ui, pod, draggedRecord, editing }) => {
             />
           </svg>
         </div>
-        <div style={{ "marginTop": "-171px", "marginLeft": "135px" }}>
+        <div style={{ marginTop: "-171px", marginLeft: "135px" }}>
           {ui.locked === true ? <FaLock /> : <FaUnlock />}
         </div>
       </div>

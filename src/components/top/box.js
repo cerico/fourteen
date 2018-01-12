@@ -20,7 +20,6 @@ function collectDragSource(connectDragSource, monitor) {
 }
 
 const Box = props => {
-
   const { connectDropTarget, connectDragSource, pod } = props;
   if (!props.ui.dragged) {
     return props.connectDragSource(

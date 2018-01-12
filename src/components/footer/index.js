@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import style from "./footer.css";
 import { publish, save, published } from "../../state/actions";
 
-
 const Footer = ({ pod, ui, save, publish, published }) => {
   const colouring = {
     backgroundColor: ui.colour,
