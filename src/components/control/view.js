@@ -14,7 +14,8 @@ const Control = ({
   target,
   change,
   press,
-  dropdown
+  dropdown,
+  lockVersion
 }) => {
   const showDropdown = () => {
     if (dropdown == true) {

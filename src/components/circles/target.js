@@ -22,14 +22,14 @@ const Box = props => {
   if (props.records.length > 0) {
     return props.connectDropTarget(
       <div style={target} className={style.box}>
-        {props.records[0].name}
+        <div className={style.target}>Record</div><div className={style.target}> {props.records[0].name}</div>
       </div>
     );
   }
 
   return props.connectDropTarget(
     <div style={target} className={style.box}>
-      +
+      <div className={style.target} style={{'height': '37px','marginTop': '14px'}}>+</div>
     </div>
   );
 };
