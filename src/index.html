@@ -8,12 +8,26 @@
     <style>
       html { height: 100% }
       body {
-        background:#f6f6f6,
+        background:#f6f6f6;
+        height:100%
       }
+      #root{
+        width: 100%;
+        max-width: 1320px;
+        padding-left: 3.166667%;
+        padding-right: 4.166667%;
+        position: fixed;
+        height:100%
+      }
+      @media (min-width: 1320px) {
+        #root {
+          width: 100vw;
+          padding-left: 4.166667%;
+    }
+}
     </style>
   </head>
   <body>
-    <ul id='header'></ul>
     <div id='root'></div>
 
     <script src='./bundle/bundle.js'></script>

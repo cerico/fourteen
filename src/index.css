@@ -41,6 +41,9 @@ img {
   /* background-color: var(--white); */
 }
 
+main{
+  height:100%
+}
 /* body select.select_box */ 
 body select { 
   display: block;

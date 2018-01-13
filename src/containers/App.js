@@ -15,13 +15,11 @@ class App extends React.Component {
 
     return (
       <Router>
-        <main>
+        <main >
           <Layout links={links} />
-          <div>
             <Switch>
               <Route exact path="/" component={Panel} />
             </Switch>
-          </div>
         </main>
       </Router>
     );

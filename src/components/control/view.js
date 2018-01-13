@@ -21,7 +21,7 @@ const Control = ({
       return (
         <div>
           <div className={style.label}>Version</div>
-          <div className={style.input} style={{ width: "120px" }}>
+          <div className={style.input} style={{ width: "40%" }}>
             <select
               disabled={disable}
               value={target.version}
@@ -77,7 +77,7 @@ const Control = ({
         />
       </div>
       <div className={style.label}>Short Name</div>
-      <div className={style.input} style={{ width: "120px" }}>
+      <div className={style.input} style={{ width: "40%" }}>
         <input
           disabled={disable}
           className={style.Enter}
