@@ -16,6 +16,10 @@ const uiState = {
 
 export default (state = uiState, action) => {
   switch (action.type) {
+    case "INFO":
+    return Object.assign({}, state, {
+      info:true
+    });
     case "DRAGGING":
       return Object.assign({}, state, {
         dragMessage: "dragging",
@@ -26,6 +30,7 @@ export default (state = uiState, action) => {
       });
     case "DRAGGED":
       return Object.assign({}, state, {
+        info:false,
         dragMmessage: "dragged",
         lm: "Unlocked",
         dragging: false,
@@ -87,6 +92,11 @@ export default (state = uiState, action) => {
         align: "center",
         saved: " is publishing 25%"
       });
+    case "EDITING":
+    return Object.assign({}, uiState, {
+      dragged:true,
+      button:false 
+    })
     default:
       return state;
   }

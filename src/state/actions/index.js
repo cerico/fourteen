@@ -20,9 +20,24 @@ export const draggedRecord = pod => {
   };
 };
 
+export const showInfo = pod => {
+  return {
+    type: "INFO",
+    pod
+  };
+};
+
+
 export const draggingRecord = pod => {
   return {
     type: "DRAGGING",
+    pod
+  };
+};
+
+export const editRecord = pod => {
+  return {
+    type: "EDITING",
     pod
   };
 };

@@ -5,7 +5,8 @@ import Info from "./info";
 import {
   changePodName,
   lockVersion,
-  draggingRecord
+  showInfo,
+  editRecord
 } from "../../state/actions";
 
 const mapStateToProps = state => {
@@ -15,7 +16,7 @@ const mapStateToProps = state => {
   };
 };
 
-@connect(mapStateToProps, { changePodName, lockVersion, draggingRecord })
+@connect(mapStateToProps, { changePodName, lockVersion, showInfo, editRecord })
 class Control extends React.Component {
   constructor() {
     super();
@@ -23,11 +24,15 @@ class Control extends React.Component {
   }
 
   changeView(e) {
-    this.props.draggingRecord();
+    if (this.props.ui.published){
+      this.props.editRecord()
+    } else {
+      this.props.showInfo();
+    }
   }
 
   render() {
-    if (this.props.ui.dragging) {
+    if (this.props.ui.dragging || this.props.ui.info) {
       return (
         <Info
           blurb="how to use"

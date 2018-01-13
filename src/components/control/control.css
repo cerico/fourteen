@@ -11,7 +11,8 @@
 }
 
 .BkGrd {
-  height: 586px;
+  height: 75%;
+  overflow:scroll
 }
 
 .BkGrdsmall {
