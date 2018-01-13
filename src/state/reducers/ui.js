@@ -15,10 +15,13 @@ const uiState = {
 };
 
 export default (state = uiState, action) => {
+  
   switch (action.type) {
     case "INFO":
     return Object.assign({}, state, {
-      info:true
+      info:true,
+      dragging:false,
+      strip:''
     });
     case "DRAGGING":
       return Object.assign({}, state, {

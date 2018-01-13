@@ -6,7 +6,7 @@ import draggedRecord from "../../state/actions";
 const source = {
   drop(props, monitor, component) {
     const record = monitor.getItem();
-    props.draggedRecord(record.yes);
+    props.draggedRecord(record.box);
   }
 };
 

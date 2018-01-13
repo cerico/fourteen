@@ -4,12 +4,17 @@ import style from "./box.css";
 
 const source = {
   beginDrag(props) {
-    props.dragging();
+    props.dragging(props.box);
     return {
       id: "l",
       x: "f",
-      yes: props.yes
+      box: props.box
     };
+  },
+  endDrag(props){
+    if (!props.ui.dragged){
+      props.dragging();
+    }
   }
 };
 
@@ -23,10 +28,10 @@ const Box = props => {
   const { connectDropTarget, connectDragSource, pod } = props;
   if (!props.ui.dragged) {
     return props.connectDragSource(
-      <div className={style.box}>{props.yes}</div>
+      <div className={style.box}>{props.box}</div>
     );
   }
-  return <div className={style.box}>{props.yes}</div>;
+  return <div className={style.box}>{props.box}</div>;
 };
 
 export default DragSource("card", source, collectDragSource)(Box);

@@ -29,10 +29,16 @@ export const showInfo = pod => {
 
 
 export const draggingRecord = pod => {
+  if (pod) {
+    return {
+      type: "DRAGGING",
+      pod
+    };
+  }
   return {
-    type: "DRAGGING",
-    pod
-  };
+    type: "INFO"
+  }
+
 };
 
 export const editRecord = pod => {

@@ -9,7 +9,7 @@ const Topboxes = ({ pod, ui, draggingRecord }) => {
   return (
     <div className={style.top}>
       {pod.available.map((box, i) => {
-        return <Box ui={ui} dragging={draggingRecord} yes={box} key={i} />;
+        return <Box ui={ui} dragging={draggingRecord} box={box} key={i} />;
       })}
     </div>
   );

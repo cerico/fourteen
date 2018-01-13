@@ -39,8 +39,8 @@ Pushes to DigitalOcean droplet, runs on http://fourteen.malham.io
 * [ ]  Looks better in Chrome and Safari than Firefox
 * [ ]  Lacks Validation - can proceed without required fields
 * [ ]  Untried on tablet
-* [ ]  Not responsive
-* [ ]  Can't edit a record once published
+* [√]  Not responsive
+* [√]  Can't edit a record once published
 * [ ]  No way to go back to pod after moving to record view
 * [ ]  No cancel or unpublish buttons
 * [ ]  Attachment button present, but doesnt do anything
