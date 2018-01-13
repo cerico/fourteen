@@ -53,13 +53,12 @@
   letter-spacing: normal;
   text-align: center;
   color: #282c39;
-  color: var(--dark);
   margin-top:12%;
 }
 
 .links{
   float:right;
-  margin-right:17%;
+  margin-right:5%;
   display:flex;
 }
 

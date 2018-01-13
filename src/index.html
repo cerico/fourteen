@@ -14,15 +14,22 @@
       #root{
         width: 100%;
         max-width: 1320px;
-        padding-left: 3.166667%;
-        padding-right: 4.166667%;
+        max-height:800px;
         position: fixed;
         height:100%
       }
       @media (min-width: 1320px) {
         #root {
-          width: 100vw;
-          padding-left: 4.166667%;
+          width:92%;
+          left: 50%;
+          transform: translateX(-50%);
+    }
+    @media (min-height: 1320px) {
+        #root {
+          margin:0 auto;
+          border:4px solid #4f9eaa;
+          top: 20%;
+          transform: translateX(-50%)translateY(-20%)
     }
 }
     </style>
